@@ -12,8 +12,14 @@ I addressed these challenges by doing the step-by-step process:
 * Dashboard Design & Storytelling: Built an interactive three-page dashboard to deliver clear, actionable insights across sales, product, and operational performance.
 ## Data Preparation
 I began by assessing data quality across all tables, confirming there were no missing values or duplicates. I identified some missing shipping dates and retained them, as they may represent in-transit or canceled orders, which are relevant for operational analysis. I then standardized column names for consistency, corrected data types, and ensured all fields were properly structured to support accurate analysis.
+
+![Northwind-Global-Sales-Operations-and-Product-Performance-BI-Analysis](6.png)
 ## Data Modeling
 I structured the dataset into a star schema by combining the orders and order details tables to create a central sales fact table containing transactional metrics. The remaining table customers, products, categories, and shippers were used as dimension tables to provide analytical context. I enriched the model by linking product data to include category-level insights and established one-to-many relationships between dimensions and the fact table. Additionally, I created a date table to enable time-based analysis and trend evaluation.
+
+![Northwind-Global-Sales-Operations-and-Product-Performance-BI-Analysis](4.png)
+## ERD Diagram
+![Northwind-Global-Sales-Operations-and-Product-Performance-BI-Analysis](5.png)
 ## DAX Measures:
 ### Core Sales Metrics
 - Total Revenue: 
@@ -51,6 +57,7 @@ I structured the dataset into a star schema by combining the orders and order de
 - Top countries identify strongest markets
 - Top customers highlight key revenue contributors.
 
+![Northwind-Global-Sales-Operations-and-Product-Performance-BI-Analysis](1.png)
 ## Product & Category Intelligence
 ### Product performance and discount impact
 - Active vs discontinued revenue shows contribution gap
@@ -59,6 +66,7 @@ I structured the dataset into a star schema by combining the orders and order de
 - Discount metrics show average discount applied
 - Discontinued product analysis reveals lost revenue opportunities
 
+![Northwind-Global-Sales-Operations-and-Product-Performance-BI-Analysis](2.png)
 ## Regional, Operational & People Performance
 ### Efficiency and productivity
 - Freight metrics highlight total and average shipping cost
@@ -68,6 +76,7 @@ I structured the dataset into a star schema by combining the orders and order de
 - Salesperson ranking highlights top performers
 - Shipper performance compares cost efficiency
 
+![Northwind-Global-Sales-Operations-and-Product-Performance-BI-Analysis](3.png)
 ## Key Insights
 + Revenue shows a recovery trend after a mid-period dip
 + A small number of customers and products drive a large share of revenue
