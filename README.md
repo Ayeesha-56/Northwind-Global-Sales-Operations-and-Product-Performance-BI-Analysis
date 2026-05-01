@@ -1,5 +1,5 @@
 # Northwind-Global-Sales-Operations-and-Product-Performance-BI-Analysis
-![Northwind-Global-Sales-Operations-and-Product-Performance-BI-Analysis]()
+![Northwind-Global-Sales-Operations-and-Product-Performance-BI-Analysis](0.png)
 ## About this Project:
 I built this project to deliver an interactive business intelligence solution designed to provide executives with visibility into global sales performance, product efficiency, and operational effectiveness. By analyzing transactional data from Northwind Traders, the dashboard uncovers key revenue drivers, highlights inefficiencies in shipping costs, and evaluates the impact of discount strategies on profitability.
 ## Business Problem:
