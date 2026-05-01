@@ -1,4 +1,5 @@
 # Northwind-Global-Sales-Operations-and-Product-Performance-BI-Analysis
+![Northwind
 ## About this Project:
 I built this project to deliver an interactive business intelligence solution designed to provide executives with visibility into global sales performance, product efficiency, and operational effectiveness. By analyzing transactional data from Northwind Traders, the dashboard uncovers key revenue drivers, highlights inefficiencies in shipping costs, and evaluates the impact of discount strategies on profitability.
 ## Business Problem:
@@ -93,3 +94,6 @@ I structured the dataset into a star schema by combining the orders and order de
 + Power BI for modelling, DAX, and dashboard design.
 + Power Query for data cleaning and transformation.
 + Excel/CSV for staging and initial profiling.
+
+## Dashboard Link:
+https://app.powerbi.com/view?r=eyJrIjoiNTk3MTRhYmMtYmVhNi00MDc2LTkzYzMtZTc4OGE1MWRiZDVhIiwidCI6ImYxOGJkN2FhLTg1YzQtNDJjOS1iNjdjLTUxMWZjZGY5ZjYyNSJ9
